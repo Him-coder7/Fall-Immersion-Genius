@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
          email = document.getElementById("");
          message = document.getElementById("");
         if (userName && email && message) {
-            alert(`Form submitted successfully!\nName: ${username}\nEmail: ${email}\nMessage: ${message});
+            alert(`Form submitted successfully!\nName: ${username.value}\nEmail: ${email.value}\nMessage: ${message.value}`);
 
         } else {
-            alert("Fill all the fields" in);
+            alert(`Fill all the fields`);
         }
     });
 });
