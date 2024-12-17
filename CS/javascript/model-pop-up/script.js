@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const modal = document.getElementById("myModal");
-    const openModalButton = document.getElementById("");
-    const closeModalButton = document.getElementById("");
+    const openModalButton = document.getElementById("openModal");
+    const closeModalButton = document.getElementById("closeModal");
     openModalButton.addEventListener("click", () => {
         modal.style.display = "block";
     });
@@ -9,5 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
         modal.style.display = "none";
     });
     window.addEventListener("click", (event) => {
+        if(event.target == variable_name that stores you modal){
+             modal.style.display = "none";
+        }
     });
 });
