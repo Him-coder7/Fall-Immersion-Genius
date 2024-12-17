@@ -1,5 +1,5 @@
 function counter() {
-    count = document.getElementById("");
+    count = document.getElementById("counter-number");
     count.innerHTML = parseInt(count.innerHTML);
     
 }
